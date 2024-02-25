@@ -16,8 +16,3 @@ def check_domain(domain):
 domains = [
     'domain1.com', 'domain2.com', 'domain3.com'
 ]
-
-for domain in domains:
-    is_available = check_domain(domain)
-    if is_available:
-        print(f"{domain}: Available")
